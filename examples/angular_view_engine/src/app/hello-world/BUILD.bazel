@@ -19,6 +19,7 @@ NG_FACTORY_ADDED_IMPORTS = [
 ng_module(
     name = "hello-world",
     srcs = [
+        "index.ts",
         "hello-world.component.ts",
         "hello-world.module.ts",
     ],
@@ -32,7 +33,6 @@ ng_module(
         "//src/shared/material",
         "@npm//@angular/core",
         "@npm//@angular/forms",
-        "@npm//@angular/router",
         "@npm//date-fns",
     ],
 )

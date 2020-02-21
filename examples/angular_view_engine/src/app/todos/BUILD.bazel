@@ -25,6 +25,7 @@ ng_module(
     ],
     tsconfig = "//src:tsconfig.json",
     deps = NG_FACTORY_ADDED_IMPORTS + [
+        "//src/app/hello-world",
         "//src/shared/material",
         "//src/app/todos/reducers",
         "@npm//@angular/common",

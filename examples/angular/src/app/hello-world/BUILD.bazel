@@ -13,6 +13,7 @@ sass_binary(
 ng_module(
     name = "hello-world",
     srcs = [
+        "index.ts",
         "hello-world.component.ts",
         "hello-world.module.ts",
     ],
@@ -24,7 +25,6 @@ ng_module(
     deps = [
         "//src/lib/shorten",
         "//src/shared/material",
-        "@npm//@angular/router",
         "@npm//date-fns",
     ],
 )

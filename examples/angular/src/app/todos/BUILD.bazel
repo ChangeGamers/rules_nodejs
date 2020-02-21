@@ -20,6 +20,7 @@ ng_module(
     ],
     tsconfig = "//src:tsconfig.json",
     deps = [
+        "//src/app/hello-world",
         "//src/app/todos/reducers",
         "//src/shared/material",
         "@npm//@angular/common",

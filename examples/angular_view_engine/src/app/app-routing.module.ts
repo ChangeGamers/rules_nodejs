@@ -13,12 +13,6 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.ngfactory').then(m => m.HomeModuleNgFactory)
   },
   {
-    path: 'hello',
-    pathMatch: 'full',
-    loadChildren: () =>
-        import('./hello-world/hello-world.module.ngfactory').then(m => m.HelloWorldModuleNgFactory)
-  },
-  {
     path: 'todos',
     pathMatch: 'full',
     loadChildren: () => import('./todos/todos.module.ngfactory').then(m => m.TodosModuleNgFactory)
