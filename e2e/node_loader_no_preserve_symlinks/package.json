@@ -2,7 +2,7 @@
     "description": "e2e node_loader testing dependencies",
     "devDependencies": {},
     "dependencies": {
-        "@gregmagolan/test-a": "0.0.2",
+        "@gregmagolan/test-a": "0.0.5",
         "@gregmagolan/test-b": "0.0.2",
         "tmp": "0.0.33"
     },
